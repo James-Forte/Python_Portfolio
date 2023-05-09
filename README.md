@@ -689,9 +689,6 @@ numpy.loadtxt(fname = 'inflammation-01.csv')
 
 
 
-```python
-
-
 
 
 ```python

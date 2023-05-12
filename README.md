@@ -2270,11 +2270,7 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 
     (0, 0, 1.0, 0.2)
 
-
-
-
-
-## Command Line Programs 
+ 
 
 ## Transcribing DNA into RNA 
 In this lesson we learned how to transcribe DNA to RNA using python. 
@@ -2425,7 +2421,7 @@ for i in range(0, len(rna_sequence), 3):
 
 
 ```python
-# Promt the user to enter the output fiel name 
+# Prompt the user to enter the output fiel name 
 
 output_file_name = input("Enter the name of the output file: ")
 ```

@@ -534,7 +534,7 @@ print(weight_kg)
 
 
 ```python
-# Weight0 = valud
+# Weight0 = valid
 # 0weight = invalid
 # weight and Weight are different
 ```

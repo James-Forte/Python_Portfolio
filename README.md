@@ -1964,6 +1964,12 @@ print(offset_mean(test_data, 3))
     [[3. 3.]
      [3. 3.]]
 
+```python
+print(offset_mean(test_data))
+```
+
+    [[0. 0.]
+     [0. 0.]]
 
 
 ```python

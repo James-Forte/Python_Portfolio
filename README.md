@@ -2325,28 +2325,6 @@ for nucleotide in dna_sequence:
 ```
 
 
-```python
-# Open the input fasta file and read the DNA seqence
-
-with open(input_file_name, "r") as input_file:
-    dna_sequence = ""
-    for line in input_file:
-        if line.startswith(">"):
-            continue
-        dna_sequence += line.strip()
-```
-
-
-```python
-# Transcribe the DNA to RNA 
-rna_sequence = ""
-for nucleotide in dna_sequence:
-    if nucleotide == "T":
-        rna_sequence += "U"
-    else:
-        rna_sequence += nucleotide
-```
-
 
 ```python
 # Prompt the user to enter the output file name 

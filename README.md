@@ -1592,6 +1592,7 @@ print_temperatures()
     Temperature in kelvin was: 373.15
 
 ### Functions(2)
+
 ```python
 import numpy 
 import matplotlib
@@ -1644,7 +1645,7 @@ def detect_problems(filename):
 ```python
 filenames = sorted(glob.glob('inflammation*.csv'))
 
-for filename in filenames[:3]:
+for filename in filenames:
     print(filename)
     visualize(filename)
     detect_problems(filename)
@@ -1654,7 +1655,7 @@ for filename in filenames[:3]:
 
 
 
-![output_3_1](https://user-images.githubusercontent.com/132518470/236705454-2911815a-c7fe-48f7-b0c6-9970178f54d8.png)
+![output_3_1](https://github.com/James-Forte/Python_Portfolio/assets/132518470/9e616dfe-11e2-46d7-baed-3c7b7540e84a)
 
 
 
@@ -1663,7 +1664,7 @@ for filename in filenames[:3]:
 
 
 
-![output_3_3](https://user-images.githubusercontent.com/132518470/236705465-ca2e06ff-8668-40ef-ad26-f71b91700564.png)
+![output_3_3](https://github.com/James-Forte/Python_Portfolio/assets/132518470/9e5e64b2-a5c0-495e-8d39-fd10d3abf015)
 
 
 
@@ -1672,11 +1673,93 @@ for filename in filenames[:3]:
 
 
 
-![output_3_5](https://user-images.githubusercontent.com/132518470/236705469-0cd226c9-ef88-4023-b795-d86864aa2794.png)
+![output_3_5](https://github.com/James-Forte/Python_Portfolio/assets/132518470/76003f6c-e8f8-4fcd-8a2f-34288a59d8d3)
 
 
 
     Minima add up to zero!
+    inflammation-04.csv
+
+
+
+![output_3_7](https://github.com/James-Forte/Python_Portfolio/assets/132518470/2b56535b-9e1b-46c2-beca-cd2c828923ad)
+
+
+
+    Suspicious looking maxima!
+    inflammation-05.csv
+
+
+
+![output_3_9](https://github.com/James-Forte/Python_Portfolio/assets/132518470/088dc316-c776-4dda-9b03-8936888964bc)
+
+
+
+    Suspicious looking maxima!
+    inflammation-06.csv
+
+
+
+![output_3_11](https://github.com/James-Forte/Python_Portfolio/assets/132518470/0449839c-cd7b-462f-8651-5112a3447cc0)
+
+
+
+    Suspicious looking maxima!
+    inflammation-07.csv
+
+
+
+![output_3_13](https://github.com/James-Forte/Python_Portfolio/assets/132518470/6cf9d298-d98d-4e13-a2d4-b37b690415ca)
+
+
+
+    Suspicious looking maxima!
+    inflammation-08.csv
+
+
+
+![output_3_15](https://github.com/James-Forte/Python_Portfolio/assets/132518470/740b7ce2-744a-4108-9452-402bc6b4cc8e)
+
+
+
+    Minima add up to zero!
+    inflammation-09.csv
+
+
+
+![output_3_17](https://github.com/James-Forte/Python_Portfolio/assets/132518470/53f24e81-a568-410a-8486-372328b43297)
+
+
+
+    Suspicious looking maxima!
+    inflammation-10.csv
+
+
+
+![output_3_19](https://github.com/James-Forte/Python_Portfolio/assets/132518470/7b2ae91e-96b4-49c5-b766-bcc32b438361)
+
+
+
+    Suspicious looking maxima!
+    inflammation-11.csv
+
+
+
+![output_3_21](https://github.com/James-Forte/Python_Portfolio/assets/132518470/0696fcbe-f668-411a-b300-d4d0d02253c2)
+
+
+
+    Minima add up to zero!
+    inflammation-12.csv
+
+
+
+![output_3_23](https://github.com/James-Forte/Python_Portfolio/assets/132518470/6862de29-b836-4564-b455-4d0922f22006)
+
+
+
+    Suspicious looking maxima!
+
 
 ### Functions (3)
 

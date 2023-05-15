@@ -1439,6 +1439,7 @@ else:
     Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
 
 ## Functions (1, 2, 3 and 4)
+### Functions (1)
 In these lessons we learned how to create and use functions in python.
 
 ```python
@@ -1589,6 +1590,8 @@ print_temperatures()
 
     Temperature in Fahrenheit was: 212.0
     Temperature in kelvin was: 373.15
+
+### Functions(2)
 ```python
 import numpy 
 import matplotlib

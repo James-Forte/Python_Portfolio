@@ -1601,6 +1601,7 @@ import glob
 
 
 ```python
+'freezing point of water in Kelvin:'
 def visualize(filename):
     
     data = numpy.loadtxt(fname = filename, delimiter = ',')
@@ -1677,7 +1678,7 @@ for filename in filenames[:3]:
 
     Minima add up to zero!
 
-
+### Functions (3)
 
 ```python
 def offset_mean(data, target_mean_value):
@@ -1804,7 +1805,7 @@ help(offset_mean)
         array([-1., 0., 1.])
     
 
-
+### Functions(4)
 
 ```python
 numpy.loadtxt('inflammation-01.csv', delimiter = ',')

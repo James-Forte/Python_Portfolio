@@ -168,20 +168,7 @@ df.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -278,20 +265,7 @@ df.loc[non_numeric_profits].head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -662,7 +636,7 @@ numpy.loadtxt(fname = 'inflammation-01.csv')
     OSError: inflammation-01.csv not found.
 
 
-
+### Analyzing Data 2nd Notebook
 
 
 ```python
@@ -2017,111 +1991,6 @@ def std_dev(sample):
     return numpy.sqrt(sum_squared_devs / (len(sample) - 1))
 ```
 
-
-
-## Errors 
-
-In this lesson we looked at the best practices for reading and addressing errors in python.
-
-```python
-# This code has an intentional error, You can type it directly 
-# or use it for reference to understand the error message below.
-
-def favorite_ice_cream():
-    ice_creams = [
-        'chacolate',
-        'vanilla',
-        'strawberry'
-        
-    ]
-    print(ice_creams[3])
-    
-favorite_ice_cream()
-        
-    
-```
-
-
-    ---------------------------------------------------------------------------
-
-    IndexError                                Traceback (most recent call last)
-
-    <ipython-input-1-77b2a4977922> in <module>
-         11     print(ice_creams[3])
-         12 
-    ---> 13 favorite_ice_cream()
-         14 
-         15 
-
-
-    <ipython-input-1-77b2a4977922> in favorite_ice_cream()
-          9 
-         10     ]
-    ---> 11     print(ice_creams[3])
-         12 
-         13 favorite_ice_cream()
-
-
-    IndexError: list index out of range
-
-
-
-```python
-def some_function():
-    msg = 'hello, world!'
-    print(msg)
-    return msg
-```
-
-
-```python
-print(a)
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-3-bca0e2660b9f> in <module>
-    ----> 1 print(a)
-    
-
-    NameError: name 'a' is not defined
-
-print('hello')
-
-```python
-count = 0
-
-for number in range(10):
-    count = count + number
-print('The count is:', count)
-```
-
-    The count is: 45
-
-
-
-```python
-letters = ['a', 'b', 'c']
-
-print('Letter #1 is', letters[0])
-print('Letter #2 is', letters[1])
-print('Letter #3 is', letters[2])
-#print('Letter #4 is', letters[3])
-```
-
-    Letter #1 is a
-    Letter #2 is b
-    Letter #3 is c
-
-
-
-```python
-file_handle = open('myfile.txt','w')
-
-```
 
 
 ## Defensive Programming 

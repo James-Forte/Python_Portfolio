@@ -1389,9 +1389,6 @@ else:
 import numpy 
 ```
 
-```python
-import numpy
-```
 
 
 ```python

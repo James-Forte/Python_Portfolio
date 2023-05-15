@@ -1405,7 +1405,7 @@ max_inflammation_0 = numpy.amax(data, axis=0)[0]
 max_inflammation_20 = numpy.amax(data, axis = 0)[20]
 
 if max_inflammation_0 == 0 and max_inflammation_20 == 20:
-    print('Saspictious looxing maxima!')
+    print('Saspitious looxing maxima!')
     
 elif numpy.sum(numpy.amin(data, axis=0)) == 0:
     print('Minima add up to zero!')
@@ -1414,7 +1414,7 @@ else:
     print('Seems OK!')
 ```
 
-    Saspictious looxing maxima!
+    Saspitious looxing maxima!
 
 
 
